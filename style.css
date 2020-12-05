@@ -1,0 +1,348 @@
+
+
+
+/* common */
+
+*{
+    font-family: Monaco ;
+}
+
+
+
+
+
+/* headings paragraph body */
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(12, 1, 1);
+    margin: 10px;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-image: url("images/wood.jpg");
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer img{
+    max-width: 80px;
+}
+
+
+
+
+
+
+
+/* header*/
+
+.header{
+    background-image: url("images/paper.jpg");
+    justify-content: space-between;
+    max-height: 70px;
+}
+
+
+
+
+
+
+
+ /* grids */
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.grid img {
+    max-width: 450px;
+
+}
+
+.gridtwo img {
+    max-width: 450px;
+}
+
+.gridtwo{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+
+
+
+
+
+
+
+ /* menu */
+
+.menu{
+    text-align: center;
+    font-size: 25px;
+}
+
+.menu a:visited{ 
+    color: rgb(12, 9, 9); 
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+/* items */
+
+
+
+   /* itemone */
+
+        .itemone {
+            position: relative;
+        }
+
+        .itemone img{
+            max-width: 390px;
+         }
+
+        .itemone p{
+            position: absolute;
+            top: 26%;
+            left: 70%;
+            transform: translate(-50%, +50%);
+            opacity: 0;
+        }
+
+        .itemone:hover p{
+            opacity: 1;
+            color: #e90a0a;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+        .itemone:hover img{
+            opacity: 0.4;
+        }
+
+        .itemone img {
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+    /* itemtwo */
+        .itemtwo {
+            position: relative;
+        }
+
+        .itemtwo img{
+            max-width: 510px;
+        }
+
+        .itemtwo p{
+            position: absolute;
+            top: 36%;
+            left: 50%;
+            transform: translate(-50%, +50%);
+            opacity: 0;
+        }
+
+        .itemtwo:hover p{
+            opacity: 1;
+            color: #e90a0a;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+        .itemtwo:hover img{
+            opacity: 0.4;
+        }
+
+        .itemtwo img {
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+
+
+
+        /* itemthree */
+        .itemthree {
+            position: relative;
+        }
+
+        .itemthree img{
+            max-width: 450px;
+         }
+
+        .itemthree p{
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, +50%);
+            opacity: 0;
+        }
+
+        .itemthree:hover p{
+            opacity: 1;
+            color: #e90a0a;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+        .itemthree:hover img{
+            opacity: 0.4;
+        }
+
+        .itemthree img {
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+
+
+
+        /* itemfour */
+        .itemfour {
+            position: relative;
+        }
+
+        .itemfour img{
+            max-width: 515px;
+         }
+
+        .itemfour p{
+            position: absolute;
+            top: 35%;
+            left: 65%;
+            transform: translate(-50%, +50%);
+            opacity: 0;
+        }
+
+        .itemfour:hover p{
+            opacity: 1;
+            color: #e90a0a;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+        .itemfour:hover img{
+            opacity: 0.4;
+        }
+
+        .itemfour img {
+            opacity: 1;
+        }
+
+
+
+
+
+
+        /* itemfive */
+        .itemfive {
+            position: relative;
+        }
+
+        .itemfive img{
+            max-width: 430px;
+         }
+
+        .itemfive p{
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, +50%);
+            opacity: 0;
+        }
+
+        .itemfive:hover p{
+            opacity: 1;
+            color: #e90a0a;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+        .itemfive:hover img{
+            opacity: 0.4;
+        }
+
+        .itemfive img {
+            opacity: 1;
+        }
+
+
+
+
+
+        /* itemsix */
+        .itemsix {
+            position: relative;
+        }
+        .itemsix img{
+            max-width: 515px;
+         }
+
+        .itemsix p{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, +50%);
+            opacity: 0;
+        }
+
+        .itemsix:hover p{
+            opacity: 1;
+            color: #e90a0a;
+            font-size: 30px;
+            margin-top: 10px;
+
+        }
+
+        .itemsix:hover img{
+            opacity: 0.4;
+        }
+
+        .itemsix img {
+            opacity: 1;
+        }
+
+ 
